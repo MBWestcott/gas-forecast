@@ -1,0 +1,32 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "gasforecast"
+version = "0.0.1"
+description = "Project for Imperial College Professional Certificate in Machine Learning and Artificial Intelligence. Forecasting UK natural gas next day system prices and demand based on daily summaryand historic prices"
+authors = [
+  { name = "Mike Westcott" },
+]
+
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    
+]
+requires-python = "~=3.12"
+
+
+[tool.ruff]
+line-length = 99
+src = ["gasforecast"]
+include = ["pyproject.toml", "gasforecast/**/*.py"]
+
+[tool.ruff.lint]
+extend-select = ["I"]  # Add import sorting
+
+[tool.ruff.lint.isort]
+known-first-party = ["gasforecast"]
+force-sort-within-sections = true
+
