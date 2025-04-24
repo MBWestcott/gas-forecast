@@ -1,61 +1,24 @@
-# GasForecast
+# PROJECT TITLE 
 
-<a target="_blank" href="https://cookiecutter-data-science.drivendata.org/">
-    <img src="https://img.shields.io/badge/CCDS-Project%20template-328F97?logo=cookiecutter" />
-</a>
 
-Project for Imperial College Professional Certificate in Machine Learning and Artificial Intelligence. Forecasting UK natural gas next day system prices and demand based on daily summaryand historic prices
+## NON-TECHNICAL EXPLANATION OF YOUR PROJECT
+100 words to explain what your project is about to a general audience. 
 
-## Project Organization
+## DATA
+A summary of the data you’re using, remembering to include where you got it and any relevant citations. 
 
-```
-├── LICENSE            <- Open-source license if one is chosen
-├── Makefile           <- Makefile with convenience commands like `make data` or `make train`
-├── README.md          <- The top-level README for developers using this project.
-├── data
-│   ├── external       <- Data from third party sources.
-│   ├── interim        <- Intermediate data that has been transformed.
-│   ├── processed      <- The final, canonical data sets for modeling.
-│   └── raw            <- The original, immutable data dump.
-│
-├── docs               <- A default mkdocs project; see www.mkdocs.org for details
-│
-├── models             <- Trained and serialized models, model predictions, or model summaries
-│
-├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-│                         the creator's initials, and a short `-` delimited description, e.g.
-│                         `1.0-jqp-initial-data-exploration`.
-│
-├── pyproject.toml     <- Project configuration file with package metadata for 
-│                         gasforecast and configuration for tools like black
-│
-├── references         <- Data dictionaries, manuals, and all other explanatory materials.
-│
-├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-│   └── figures        <- Generated graphics and figures to be used in reporting
-│
-├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-│                         generated with `pip freeze > requirements.txt`
-│
-├── setup.cfg          <- Configuration file for flake8
-│
-└── gasforecast   <- Source code for use in this project.
-    │
-    ├── __init__.py             <- Makes gasforecast a Python module
-    │
-    ├── config.py               <- Store useful variables and configuration
-    │
-    ├── dataset.py              <- Scripts to download or generate data
-    │
-    ├── features.py             <- Code to create features for modeling
-    │
-    ├── modeling                
-    │   ├── __init__.py 
-    │   ├── predict.py          <- Code to run model inference with trained models          
-    │   └── train.py            <- Code to train models
-    │
-    └── plots.py                <- Code to create visualizations
-```
+## MODEL 
+A summary of the model you’re using and why you chose it. 
 
---------
+## HYPERPARAMETER OPTIMSATION
+Description of which hyperparameters you have and how you chose to optimise them. 
+
+## RESULTS
+A summary of your results and what you can learn from your model 
+
+You can include images of plots using the code below:
+![Screenshot](image.png)
+
+## (OPTIONAL: CONTACT DETAILS)
+If you are planning on making your github repo public you may wish to include some contact information such as a link to your twitter or an email address. 
 
