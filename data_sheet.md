@@ -20,7 +20,7 @@ The instances in this subset of Nation Gas Transmission data each represent one 
 
 **How many instances of each type are there?**
 
-This subset contains 1812 instances: one for each day from 1st May 2020 and 16th April 2025 inclusive
+This subset contains 1815 instances: one for each day from 1st May 2020 and 19th April 2025 inclusive
 
 **Is there any missing data?**
 
